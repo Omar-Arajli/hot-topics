@@ -1,0 +1,551 @@
+/*
+
+color sheme:
+        
+        Cadmium Green:                #025C34;
+        Carolina blue:                #333333;
+        Green RYB                     #66B031;
+        CG Blue                       #347B98;
+
+        White:                          #ffffff;         
+
+
+    Font: 
+              Merriweather (HEADING) 
+              font-family: 'Merriweather', serif;
+         
+                Fira Sans (body text)
+                font-family: 'Fira Sans', arial narow, arial, sans-serif;
+           
+      
+
+
+*/
+
+
+
+/***************************************************
+            MOBILE PORTRAIT (under 480px(30rem) )
+***************************************************/
+
+
+/* General*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fira Sans', arial narow, arial, sans-serif;
+    font-weight: 300;
+    font-size: 0.75rem;
+    line-height: 1.4;
+    color: #232432;
+
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+li {
+    list-style: none;
+}
+
+/* masthead*/
+
+.masthead {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    background-color: #129CD1;
+    background-image: url(../img/home/masthead-background.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+    margin: 0 auto;
+
+}
+
+.logo {
+    display: inline-block;
+    position: relative;
+    margin: 3rem auto 2.5rem;
+    grid-column: 2/3;
+
+}
+
+.logo h1 {
+    display: inline;
+    font-family: 'Merriweather', Times New Roman, Georgia, serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #1a25ca;
+
+    text-align: center;
+
+}
+
+.logo img {
+    display: inline-block;
+    width: 7rem;
+    position: absolute;
+    top: 0.25rem;
+    right: -4.7rem;
+
+}
+
+.masthead p {
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    color: #121a86;
+    background-color: #e2e4ff;
+    margin: 0 auto 1rem;
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+
+    grid-column: 1/6;
+
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    font-family: 'Merriweather', Times New Roman, Georgia, serif;
+    font-size: 1.75rem;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    background-color: #3945ee;
+    ;
+    box-shadow: 2px 2px 6px rgb(0, 0, 0, 0.3) inset;
+    margin: 2rem 1rem;
+    padding: 0.75rem 4rem;
+    border-radius: 0.5rem;
+}
+
+
+nav ul li a:hover {
+    font-size: 1.9rem;
+    font-weight: 600;
+    color: #129CD1;
+    background-color: #ffffff;
+}
+
+.nav-desktop{
+    display: none;
+}
+
+header hr{
+    display: none;
+}
+
+header .tagline{
+    display: none;
+}
+
+
+article hr {
+    border: 5px solid #5e9cff;
+
+}
+
+.dynamic-data .subject {
+    padding: 3rem 1rem 0rem;
+
+}
+
+.dynamic-data .subject:last-of-type {
+    padding: 3rem 1rem 2rem;
+
+}
+
+.dynamic-data h2 {
+    font-family: 'Merriweather', Times New Roman, Georgia, serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #1822ad;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+
+}
+
+.subject figure,
+.portfolio-card figure {
+    text-align: center;
+}
+
+.dynamic-data div figcaption {
+    font-weight: 400;
+    text-align: center;
+    color: #1822ad;
+    margin-top: 0.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.dynamic-data div img {
+
+    border-radius: 0.3rem;
+
+}
+
+.dynamic-data .subject hr{
+    border: 1px solid #5e9cff;
+    margin-top: 3rem;
+
+    
+}
+
+.dynamic-data .portfolio-card {
+    background-color: #ddf5ff;
+    margin: 3rem 0;
+    padding: 1.5rem 1rem;
+}
+
+.dynamic-data .portfolio-card figcaption {
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+footer {
+    background-color: #5fb2d3;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+footer .container {
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+    background-color: #ffffff;
+
+}
+
+footer .logo {
+    grid-column: 1/3;
+    padding-left: 0;
+
+}
+
+footer p {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+
+    margin: 1.5rem auto 1rem;
+    grid-column: 1/6;
+}
+
+
+
+footer h3 {
+    font-family: 'Merriweather', Times New Roman, Georgia, serif;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+footer ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 80%;
+    margin: 0 auto;
+
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+footer ul li a i {
+    font-size: 1rem;
+    color: #ffffff;
+
+
+}
+
+
+
+/*
+/***************************************************
+LANDSCAPE MOBILE 480px(35rem) and up 
+***************************************************/
+
+@media only screen and (min-width: 35rem) {
+
+    /* General */
+
+    body {
+        font-size: 1rem;
+        line-height: 1.4;
+
+    }
+
+    .logo h1 {
+        font-size: 2.5rem;
+    }
+
+    .logo img {
+        width: 9rem;
+        top: 0.5rem;
+        right: -6rem;
+    }
+    .masthead{
+        padding-bottom: 0.75rem;
+    }
+    .masthead p {
+        display: none;
+    }
+
+    nav ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 1.5rem auto;
+        padding-left: 2rem;
+        padding-right: 2rem;
+
+    }
+
+    nav ul li {
+        display: inline-block;
+        font-size: 1.3rem;
+        text-align: center;
+
+    }
+
+    nav ul li:hover {
+        font-size: 1.5rem;
+        font-weight: 500;
+
+    }
+
+    header .tagline{
+        font-size: 1.2rem;
+        font-weight: 500;
+        color:  #1822ad;
+        text-align: center;
+        display: block;
+    }
+
+    header hr{
+        display: block;
+        border: 5px solid #5e9cff;
+    }
+
+    .dynamic-data {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-column-gap: 2rem;
+        grid-row-gap: 2.25rem;
+
+    }
+
+    .dynamic-data .portfolio-card{
+        margin: 0rem;
+        border-radius: 0.4rem;
+    }
+ 
+    .dynamic-data{
+        padding: 3rem 3rem 0rem;
+        overflow: auto;
+        grid-column: 1/3;
+    }
+
+    .dynamic-data .subject{
+        padding-left:  0rem;
+        padding-left:  0rem;
+        overflow: auto;
+        grid-column: 1/3;
+    }
+
+
+    .dynamic-data .subject:last-of-type{
+        padding-left:  0rem;
+        padding-left:  0rem;
+        overflow: auto;
+        grid-column: 1/3;
+}
+
+    .subject figure{
+        width: 40%;
+        float: left;
+        margin-right: 1rem ;
+        text-align: left;
+
+    }
+  
+    .subject figure figcaption{
+        text-align: left;
+        margin-top: 0.25rem;
+        margin-bottom: 0rem;
+    }
+    
+    .dynamic-data .subject hr{
+        border: 1px solid #5e9cff;
+        margin-top: 3rem;
+        clear:both;
+    }
+    footer{
+        margin-top: 5rem;
+    }
+
+}
+
+/***************************************************
+LANDSCAPE MOBILE 800px(80rem) and up 
+***************************************************/
+
+@media only screen and (min-width: 80rem) {
+
+    /* General */
+    body {
+        font-size: 1.25rem;
+        line-height: 1.6;
+        color: #383636;
+
+    }
+
+    .masthead .logo{
+        margin-left: -5%;
+    }
+    .masthead .logo h1 {
+        font-size: 3rem;
+
+    }
+
+    .masthead .logo img {
+        width: 10rem;
+        top: 1rem;
+        right: -6.5rem;
+
+    }
+
+    .masthead p {
+        font-size: 1.4rem;
+    }
+
+
+    nav ul,
+    p.tagline {
+        display: inline;
+        padding-left: 10%;
+   
+    }
+
+    
+    .dynamic-data {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+
+    }
+
+    nav ul li a {
+        font-size: 1.5rem;
+        padding: 0.5rem 3rem ;
+        margin-left: 0;
+   
+    }
+    nav ul li a:hover {
+        font-size: 1.7rem;
+   
+    }
+
+  
+
+    .dynamic-data {
+        padding-left: 0;
+        padding-right: 0;
+        margin: auto;
+        max-width: 80%;
+
+    }
+
+
+    .dynamic-data .subject,
+    .dynamic-data .subject:last-of-type{
+        grid-column: 1/4;
+    }
+
+    .dynamic-data .subject h2{
+        text-align: left;
+    }
+    .subject figure figcaption {
+        margin-bottom: 0.25rem;
+    }
+    footer {
+        clear: both;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 2fr 1fr;
+
+        padding-top: 3rem;
+        padding-bottom: 0;
+
+    }
+
+    footer .container {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        width: 27rem;
+        height: 9rem;
+
+        margin-left: 4rem;
+        border-radius: 2rem;
+
+    }
+
+    footer .logo {
+        padding: 0;
+        margin: auto;
+    }
+
+    footer p {
+        grid-column: 1/3;
+        grid-row: 2/3;
+        margin: 1.5rem auto;
+
+    }
+
+    footer hr {
+        display: none;
+
+
+    }
+
+    footer h3 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+
+    }
+
+    footer ul {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        margin-top: 4rem;
+        height: 3rem;
+        max-width: 100%;
+    }
+
+    footer ul li {
+        margin-right: 1rem;
+    }
+
+
+
+
+}

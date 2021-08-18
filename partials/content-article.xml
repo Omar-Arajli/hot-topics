@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<subjects>
+    <subject>
+        <article>subject</article>
+        <title>The Value of Money</title>
+        <img-href> img/home/money-value.jpg</img-href>
+        <img-alt> imgurl</img-alt>
+        <img-caption> Money</img-caption>
+        <content>Although money seems on the surface to be a stable, objective medium of exchange, money values actually fluctuate considerably based on a number of factors. Each of these variables has some basis in cold hard truths such as the amount of currency available. Factors affecting the value of money also depend on subjective, psychological factors such as perceptions regarding the strength of a national economy.
+        Inflation reduces the value of money. When prices go up because wages are high and materials are scarce, it takes more money to buy goods. Money is then worth less relative to the goods and services that you can purchase with it. A dollar was worth more when it could buy several trips on the subway than it is now that it doesn't even cover a single trip.
+        Currency devaluation is an official action on the part of a national government to declare that its currency is worth less than it was previously. A country may decide to do this to make its exports more appealing overseas: foreign dollars can buy more product sold through a devalued currency than sold through a currency whose value is intact. In addition, devaluing a currency makes exports more expensive to people who hold the devalued currency. This encourages spending on domestically made products and helps local industries. 
+        
+        Source: "https://www.sapling.com/6299248/affects-value-money"</content>
+    </subject>
+
+    <subject>
+        <article>subject</article>
+        <title>GMO food</title>
+        <img-href> img/home/gmo-food.jpg</img-href>
+        <img-alt> imgurl</img-alt>
+        <img-caption>Industrial food</img-caption>
+        <content>Genetically modified organisms -- plants and animals whose genes have been changed by scientists -- aren't just thought over, they're fought over. GMOs often make news related to the environment, world hunger, the economy, politics, and yes, even health.
+
+Those against them say eating foods made from GMOs is bad for you. Those in favor argue that you're way better off from the benefits that GMOs and other science-based innovations bring to the farm, the store, and the table.
+
+A 2015 survey by the Pew Research Center shows this divide. Nearly 9 out of 10 scientists from the American Association for the Advancement of Science say GMOs are "generally safe" to eat. Though if you're like more than half of U.S. adults from the general public in that same survey, you think you probably shouldn't eat them.
+
+People disagree about when you should call something genetically modified. They argue about whether or not food made with GMOs should be labeled. They debate the long-term effects that producing and eating them will have on our planet and our bodies.
+Source: "https://www.webmd.com/food-recipes/features/truth-about-gmos"</content>
+    </subject>
+    
+    <subject>
+        <article>subject</article>
+        <title>The View of World in 2100</title>
+        <img-href> img/home/life-in-2100.jpg</img-href>
+        <img-alt> imgurl</img-alt>
+        <img-caption> Future predictions</img-caption>
+        <content>By 2100, the world’s sea level is predicted to rise anywhere between one foot to 12 feet, putting billions of people at risk. Despite these dire warnings and well-founded fears, humans have always had a knack for adaptation.
+
+First is solving the biggest problem—pollution. If fossil fuels are no longer around, then what will be powering our world in 2100? Hydro, electric, and wind are all obvious choices, but solar and fusion tech may prove the most promising.
+
+The classic joke about fusion energy is that widespread adoption is always just “20 years away” but private and government-funded projects are in mad pursuit of this carbon-free energy source that would effectively create the “perfect battery.”
+Source: "https://www.popularmechanics.com/technology/infrastructure/a18198479/future-machines-2100/"</content>
+    </subject>
+    
+</subjects>

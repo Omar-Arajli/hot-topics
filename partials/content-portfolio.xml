@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books>
+<subject>
+        <portfolio>portfolio-card</portfolio>
+        <img-href> img/portfolio/traditional_dress_2.jpg</img-href>
+        <img-alt> imgurl-1</img-alt>
+        <img-caption> Moroccan Jellaba</img-caption>
+ <subject>
+ <subject>
+        <portfolio>portfolio-card</portfolio>
+        <img-href> img/portfolio/traditional_lamp_5.jpg</img-href>
+        <img-alt> imgurl-2</img-alt>
+        <img-caption> Bahja's Lamp</img-caption>
+ <subject>
+ <subject>
+        <portfolio>portfolio-card</portfolio>
+        <img-href> img/portfolio/traditional_dress_6.jpg</img-href>
+        <img-alt> imgurl-3</img-alt>
+        <img-caption> Deep Soul</img-caption>
+ <subject>
+ <subject>
+ <portfolio>portfolio-card</portfolio>
+        <img-href> img/portfolio/traditional_sign_5.jpg</img-href>
+        <img-alt> imgurl-4</img-alt>
+        <img-caption> Cats Sign</img-caption>
+ <subject>
+ <subject>
+ <portfolio>portfolio-card</portfolio>
+        <img-href> img/portfolio/traditional_lamp_2.jpg</img-href>
+        <img-alt> imgurl-5</img-alt>
+        <img-caption> Traditional Lightning</img-caption>
+ <subject>
+ <subject>
+ <portfolio>portfolio-card</portfolio>
+        <img-href> img/portfolio/traditional_sign_2.jpg</img-href>
+        <img-alt> imgurl-6</img-alt>
+        <img-caption> Osteopath Sign</img-caption>
+ <subject>
+</books>
